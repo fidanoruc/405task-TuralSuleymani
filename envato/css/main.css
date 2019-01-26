@@ -1,0 +1,512 @@
+:root{
+   -moz-border-bottom-colors: rgb(86,182,105);
+}
+a{
+    text-decoration: none;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.container{
+    width: 82%;
+    margin: auto;
+}
+.clearfix{
+    clear: both;
+}
+header{
+    background-color: rgb(17,50,50);
+    height: 50px;
+}
+header .left{
+    float: left;
+}
+header li{
+    list-style-type: none;
+    float: left;
+    padding: 8px 20px 15px 0;
+}
+header li a{
+    color: white;
+    font-size: 15px;
+}
+header .right,.left{
+    margin: 0;
+}
+header .right li{
+    float: right;
+
+}
+header .right a{
+    font-size: 11px;
+    letter-spacing: .5px;
+}
+header .right i{
+    padding-right: 10px;
+    color: rgb(86,182,105);
+}
+/* Navigation Bar Start */
+nav{
+    height: 100px;;
+}
+nav .navbar{
+    float: left;
+    width: 75%;
+    height: 60px;
+}
+nav .navbar ul{
+    margin: 0;
+}
+nav .navbar li{
+    list-style-type: none;
+    padding: 20px 20px;
+    float: left;
+}
+nav .navbar li a{
+    color: black;
+    font-size: 17px;
+    font-weight: 500;
+}
+nav .navbar li a i{
+    padding: 5px;
+}
+nav .search{
+    position: relative;
+    float: right;
+}
+nav .container{
+    height: 90px;
+}
+nav .search input{
+    margin: 10px;
+    padding: 15px;
+    width: 250px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+nav .search i{
+    position: absolute;
+    right: 24px;
+    bottom: 24px;
+    font-size: 20px;
+}
+/* Navigation Bar End */
+/* Banner Start */
+.banner{
+    position: relative;
+    height: 140px;
+}
+.banner .banner_img img{
+    height: 140px;
+    width: 100%;
+}
+.banner .wrapper img{
+   position: absolute;
+   top: 30px; 
+}
+.banner .wrapper .float_li{
+    float:right;
+    position: absolute;
+}
+.float_logo{
+    float: left;
+    width: 40%;
+}
+.banner ul li{
+    float: left;
+}
+
+/* Banner End */
+
+/* Main Start */
+
+/* First Start */
+.first{
+    margin: 70px 0 0;
+}
+.float_first{
+    float: left;
+}
+.float_first{
+   padding-right:30px;
+}
+.control_li p,li{
+    font-size: 15px;
+    font-weight: 300;
+    color: #999999;
+    line-height: 140%;
+}
+.control_li li{
+    list-style-type: none;
+    padding-bottom: 30px;
+}
+.control_li i{
+    color: rgb(86,182,105);
+    padding-right:25px; 
+}
+/* First End */
+/* Who We are---Why Choose Us Start*/
+.second .float_inner{
+    float: left;
+    margin-right: 10px;
+}
+.second h2{
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.float_second{
+    float: left;
+    width: 40%;
+    padding: 0 30px 0 0;
+}
+.float_second h3{
+    color: rgb(86,182,105);
+}
+.float_second p{
+    color: rgb(160,160,160);
+    font-weight:500;
+
+}
+.float_second .top{
+    background-color: rgb(248,248,248);
+    height: 80px;
+    border-left: 3px solid rgb(86,182,105)
+}
+.float_second .top p{
+    font-weight:500;
+    color: black; 
+    padding: 10px 20px;
+    line-height: 130%;
+}
+.float_second2{
+    float: left;
+    width: 55%;
+}
+.acc1{
+    border: 1px solid #ccc;
+    background-color: rgb(86,182,105);
+    position: relative;
+}
+.acc1 h3{
+    margin: 10px 15px;
+}
+.acc1 h3 i{
+    color: white;
+    position: absolute;
+    right: 10px;
+}
+
+.acc1 h3 a{
+    color: white;
+    font-size: 18px;
+}
+.panel .float_image{
+    float: left;
+}
+.panel1{
+    background-color: rgb(238,240,239);
+    padding: 1.3em;
+}
+.panel1 img{
+    margin-right: 1em;
+}
+.panel1 p{
+    margin: 0;
+    color: rgb(168,169,169);
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 150%;
+}
+.acc2{
+    border: 1px solid #ccc;
+    position: relative;
+    margin: 5px 0;
+}
+.acc2 h3{
+    margin: 10px 15px;
+}
+.acc2 a{
+    color: rgb(86,182,105);
+}
+.acc2 i{
+    color: rgb(86,182,105);
+    position: absolute;
+    right: 10px;
+}
+
+/* Who We are---Why Choose Us End*/
+
+/* Skills Start */
+.float_third{
+    float: left;
+    width: 60%;
+}
+.float_third h3{
+    font-size: 1.5em;
+    font-weight: 700;
+}
+.float_third .control_h{
+    padding-right: 70px;
+}
+.float_third .control_h h4{
+    margin: 30px 0;
+}
+.float_skill{
+    float: left;
+}
+.progress{
+    margin: 20px 0;
+}
+progress[value]{
+    background-color: #eee;
+    height: 25px;
+    width: 450px;
+    border: 1px solid #eee;
+    border-radius: 8px;
+}
+progress[value]::-webkit-progress-value{
+    background-color: #5bc0de;
+    background-image:
+    -webkit-linear-gradient(-45deg, 
+                            transparent 33%, rgba(0, 0, 0, .1) 33%, 
+                            rgba(0,0, 0, .1) 66%, transparent 66%),
+    -webkit-linear-gradient(top, 
+                            rgba(255, 255, 255, .25), 
+                            rgba(0, 0, 0, .25)),
+    -webkit-linear-gradient(left, #09c, #f44);
+
+}
+.float_thirds{
+    float:left;
+    width: 40%;
+}
+.float_thirds h2{
+    margin:50px 0 20px; 
+}
+.float_thirds p{
+    color: #333333;
+    font-size: 19px;
+}
+.float_thirds li{
+    list-style-type: none;
+    padding-top: 10px;
+    font-weight: 300;
+}
+.float_thirds ul{
+    padding: 0;
+}
+.float_thirds li{
+    color: rgb(126,126,126);
+    font-size: 16px;
+}
+.float_thirds li>img{
+padding-right:10px; 
+}
+.float_thirds button{
+    color: rgb(86,182,105);
+    background-color: transparent;
+    border: 1px solid rgb(86,182,105);
+    padding: 12px 30px;
+    font-size: 17px;
+    font-weight: 700;
+}
+/* Skills End */
+/* Our Team Start */
+.our_team h1{
+    text-align: center;
+    font-weight: 500;
+    margin: 50px;
+}
+.our_team hr{
+    border: 2px solid rgb(86,182,105);
+    width: 5%;
+}
+.float_ourteam{
+    margin: 50px 0;
+}
+.float_ourteam:hover{
+    background-color: rgb(86,182,105);
+    color: white;
+}
+.our_team .float_ourteam{
+    float: left;
+    width: 22%;
+    margin-right:30px; 
+}
+.image_ourteam img{
+    width: 100%;
+}
+.float_ourteam{
+    border: 1px solid rgb(204, 204, 204);
+    border-top: 0px;
+}
+.float_ourteam .control_text h3{
+    margin: 15px 10px;
+}
+.float_ourteam .control_text span{
+    color: #999;
+    padding: 0 10px;
+}
+.float_ourteam .float_icon{
+    float: left;
+    width: 14%;
+}
+.float_ourteam .control_text ul{
+   padding: 15px 0 20px 20px;
+}
+.float_ourteam .control_text li{
+    list-style-type: none;
+}
+.float_ourteam .control_text li a{
+    color: #868686;
+    font-size: 14px;
+    padding-right:25px; 
+}
+
+/* Our Team End */
+
+/* Main End */
+
+/* Footer----Start */
+footer{
+    background-color: rgb(17,50,50);
+    padding: 25px 0px;
+    height: 500px;
+}
+footer h4{
+    color: white;
+    font-weight: 100;
+    font-size: 15px;
+}
+footer p{
+    color: rgb(109,120,120);
+    font-size: 14px;
+    font-weight: 100px;
+    line-height: 170%;	
+}
+footer hr{
+   border: 1.5px rgb(86,182,105) solid;
+   width: 25px;
+   margin: 0 0 25px 0;
+}
+footer ul{
+padding: 0;
+}
+footer li{
+    list-style-type:none;
+    color:  rgb(109,120,120);
+    font-size: 14px;
+    padding-bottom: 15px;
+}
+footer a{
+    color:  rgb(109,120,120);
+    font-size: 14px;
+    padding-left: 15px;
+}
+footer .float{
+    float: left;
+    width: 22%;
+    margin-right:30px; 
+}
+footer .pop_tag a{
+    padding: 0;
+}
+footer .pop_tag a:hover{
+    color: rgb(86,182,105);
+    
+}
+footer input{
+    background-color: transparent;
+    padding: 15px;
+    width: 80%;
+    font-size: 15px;
+    border: 1px rgb(109,120,120) solid;
+}
+footer .foot_control{
+    position: relative;
+}
+footer .foot_control button{
+    background-color: transparent;
+    position: absolute;
+    border: none;
+    right: 35px;
+    top: 15px;
+}
+footer .foot_control button i{
+    color: rgb(86,182,105);
+}
+footer .float_img{
+    float: left;
+    width: 30%;
+}
+footer .control_text h3{
+    color: white;
+    font-size: 15px;
+}
+footer .control_text p{
+    font-size: 12px;
+    line-height: 120%;
+}
+footer .control_text li{
+    font-size: 12px;
+    color:rgb(152,153,153);
+
+}
+footer .control_text ul{
+    width: 96%;
+}
+footer .control_text .float_li{
+    float: right;
+}
+footer .border_li{
+    border-bottom: 1px rgb(43,93,103) solid;
+    padding-bottom: 30px;
+}
+footer .float_image{
+    float: left;
+    width: 24%;
+    margin:0 2px 2px 0; 
+}
+
+footer .float_icon{
+    float: left;
+}
+footer .float_icon a{
+ padding: 0 20px 0 0;
+ font-size: 18px;
+ color:rgb(152,153,153);
+}
+footer .float_icon a:hover{
+    color: rgb(86,182,105);
+
+}
+.footer_second{
+    background-color: black;
+    height: 20px;
+    padding: 20px;
+}
+.footer_second .float_ul{
+    float: left;
+    width: 50%;
+    margin: 0;
+}
+.footer_second .left li{
+    color: rgb(204,204,204);
+    font-size: 14px;
+    padding: 0 3px;
+    font-size: 12px;
+    font-weight:300;
+}
+.footer_second .float_ul li{
+    float: left;
+}
+.footer_second .right li a{
+    color: rgb(204,204,204);
+    font-weight: 500;
+    padding: 0 15px;
+}
+.footer_second .right li a:hover{
+    color: rgb(86,182,105);
+}
+/* Footer End */
